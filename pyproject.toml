@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "omaviat-calendar"
+version = "0.1.0"
+description = ""
+authors = ["CLoudUndefined <cloudundefined.work.23@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">= 3.8, < 3.11.*"
+
+[tool.poetry.group.dev.dependencies]
+pyTelegramBotAPI = "^4.14.0"
+python-dotenv = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
