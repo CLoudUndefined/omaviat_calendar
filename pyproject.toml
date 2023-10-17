@@ -7,10 +7,18 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.8"
-
-[tool.poetry.group.dev.dependencies]
 pyTelegramBotAPI = "^4.14.0"
 python-dotenv = "^1.0.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.9.1"
+ruff = "0.1.0"
+
+[tool.ruff]
+exclude = [".venv"]
+exteng-ignore = ["F401"]
+line-length = 100
+
 
 [build-system]
 requires = ["poetry-core"]
