@@ -1,0 +1,3 @@
+class DataBaseController:
+    def __init__(self, db_path: str) -> None:
+        ...
