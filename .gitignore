@@ -3,3 +3,4 @@ test.py
 poetry.lock
 database/*
 .vscode
+__pycache__
